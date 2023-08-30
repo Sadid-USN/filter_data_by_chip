@@ -1,16 +1,15 @@
-# chip_filter
 
-A new Flutter project.
+# Filter data using FilterChip
 
-## Getting Started
+this is a simple application about how to filter data using the FilterChip
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Documentation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[Documentation](https://linktodocumentation)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This application serves as an illustrative tool for Flutter developers, showcasing uncomplicated data filtering through the utilization of the state management provider and the 'where' function. It offers an intuitive method to grasp the fundamentals of data filtration.
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
