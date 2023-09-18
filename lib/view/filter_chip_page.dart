@@ -51,7 +51,7 @@ class FilterChipPage extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 12),
               itemCount: filterProductList.length,
               itemBuilder: (context, index) {
-                final products = filterProductList[index];
+                final product = filterProductList[index];
 
                 return Card(
                   elevation: 8.0,
@@ -65,14 +65,14 @@ class FilterChipPage extends StatelessWidget {
                       contentPadding: const EdgeInsets.symmetric(
                           vertical: 10, horizontal: 16),
                       title: Text(
-                        products.name,
+                        product.name.join(", "),
                         style: const TextStyle(
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
                       subtitle: Text(
-                        products.category,
+                        product.category,
                         style: const TextStyle(
                           color: Colors.white,
                           fontStyle: FontStyle.italic,
