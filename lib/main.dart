@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        HomePage.ROUTNAME: (context) => const HomePage(),
+        FilterChipPage.ROUTNAME: (context) => const FilterChipPage(),
         PaginationPage.ROUTNAME: (context) => const PaginationPage(),
         SearchListPage.ROUTNAME: (context) => const SearchListPage(),
       },
@@ -55,7 +55,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  const HomePage(),
+      home:  const FilterChipPage(),
     );
   }
 }

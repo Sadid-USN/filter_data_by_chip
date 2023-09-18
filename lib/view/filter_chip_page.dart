@@ -3,9 +3,9 @@ import 'package:chip_filter/models/product.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-class HomePage extends StatelessWidget {
-  static const String ROUTNAME = "/home";
-  const HomePage({super.key});
+class FilterChipPage extends StatelessWidget {
+  static const String ROUTNAME = "/filterChipPage";
+  const FilterChipPage({super.key});
 
   @override
   Widget build(BuildContext context) {
