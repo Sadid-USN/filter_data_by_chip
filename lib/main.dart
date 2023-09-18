@@ -1,6 +1,7 @@
 import 'package:chip_filter/controller/pagination_controller.dart';
 import 'package:chip_filter/controller/selected_categorty_controleer.dart';
 import 'package:chip_filter/models/product.dart';
+import 'package:chip_filter/view/animation_text_page.dart';
 import 'package:chip_filter/view/home_page.dart';
 import 'package:chip_filter/view/pagination_page.dart';
 import 'package:chip_filter/view/search_list_page.dart';
@@ -54,7 +55,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SearchListPage(),
+      home:  const HomePage(),
     );
   }
 }
